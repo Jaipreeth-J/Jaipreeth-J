@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⛩️ JAIPREETH J // 開発者
-### ☕ *Full-Stack Engineer & AI Observability Architect*
+### ☕ *Full-Stack Software Engineer*
 **Dayananda Sagar College of Engineering (DSCE), Bangalore**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaipreeth-j/)
@@ -17,12 +17,12 @@
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│  OPERATIVE STATS // JAIPREETH J                                        │
+│  OPERATIVE PROFILE // JAIPREETH J                                      │
 │  ────────────────────────────────────────────────────────────────────  │
 │  AFFILIATION : Dayananda Sagar College of Engineering (BE ISE)         │
 │  STATUS      : Oct 2023 - Present (CGPA: 8.9 / 10.0)                   │
-│  SPECIALTY   : Scalable Web Systems, AI Observability & LangGraph      │
-│  TRAIT       : High-Concurrency Backend & Pixel-Perfect UI Architecture│
+│  SPECIALTY   : Full-Stack Web Development & High-Concurrency Systems   │
+│  CORE STACK  : React, Node.js, Express, PostgreSQL, Prisma, Supabase   │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -30,101 +30,92 @@
 
 ---
 
-### 🌌 Lore & Character Introduction
-I am an **Information Science & Engineering** undergraduate at **Dayananda Sagar College of Engineering (DSCE)**, Bangalore. I specialize in engineering high-performance web systems and AI-integrated applications, with deep focus on scalable database pipelines (PostgreSQL, Supabase) and reactive, modern frontends (React, TypeScript, Vite, Tailwind CSS).
+### 🌌 Profile & Focus
+I am an **Information Science and Engineering** undergraduate at **Dayananda Sagar College of Engineering (DSCE)**, Bangalore. I specialize in full-stack web development, engineering scalable backend architectures, high-throughput RESTful APIs, and responsive, accessible user interfaces.
 
-- 🔭 **Currently Building:** Scalable full-stack systems and multi-agent AI observability pipelines.
-- 🧠 **Exploring:** LangGraph multi-judge consensus workflows and Google Gemini integrations to evaluate and mitigate LLM hallucination risks.
-- ⚡ **Mastering:** Advanced Data Structures & Algorithms (DSA), Low-Level Design (LLD), and Distributed Systems.
+- 🔭 **Building:** Scalable applications using **React**, **Node.js**, **Express**, **PostgreSQL**, and **Prisma**.
+- ⚡ **Core Competencies:** Advanced Data Structures & Algorithms (DSA), Low-Level Design (LLD), and Object-Oriented Programming (OOP).
+- 🎓 **Education:** DSCE Bangalore (BE ISE, CGPA: 8.9) | BGS PU College (PCMB, 96.83%).
 
 ---
 
-### ⚔️ Tech Arsenal & Masteries
+### ⚔️ Technical Arsenal
 
-| Category | Arsenal Stack |
+| Category | Technologies |
 | :--- | :--- |
-| **Languages** | `Java` `C` `JavaScript (ES6+)` `TypeScript` `SQL (PostgreSQL)` `HTML5` `CSS3` |
-| **Frontend Frameworks** | `React.js` `Vite` `Tailwind CSS` `shadcn/ui` `Bootstrap` `Radix UI` |
-| **Backend & Databases** | `Node.js` `Express.js` `PostgreSQL` `MongoDB` `Supabase` `Firebase Firestore` |
-| **AI & Observability** | `LangGraph` `Google Gemini API` `Multi-Judge Evaluation` `RAG Pipelines` |
-| **Tools & Environments** | `Git` `GitHub` `Postman` `VS Code` `Figma` `Vite` `Windows` `Linux` |
-| **Core Coursework** | `DSA` `Object-Oriented Programming (OOP)` `DBMS` `Operating Systems` `Networks` |
+| **Programming Languages** | `Java` `C (Basics)` `JavaScript (ES6+)` `TypeScript` |
+| **Frontend Development** | `React.js` `HTML5` `CSS3` `Tailwind CSS` `Bootstrap` |
+| **Backend & Databases** | `Node.js` `Express.js` `RESTful APIs` `PostgreSQL` `MongoDB` `Supabase` |
+| **Tools & Environments** | `Git` `GitHub` `Postman` `VS Code` `Figma` |
+| **Computer Fundamentals** | `DSA` `Low-Level Design (LLD)` `OOP` `DBMS` `Operating Systems` `Computer Networks` |
 
 ---
 
-### 🏮 Featured Missions & Projects
+### 🏮 Key Featured Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>🛡️ <a href="https://github.com/Jaipreeth-J/AI-Sentinel">AI Sentinel</a></h3>
-      <p><strong>Multi-Judge AI Observability & Hallucination Mitigation Platform</strong></p>
+      <p><strong>AI Quality & Observability Platform</strong></p>
       <ul>
-        <li>Orchestrated multi-judge evaluation graphs using <strong>LangGraph</strong> & <strong>Google Gemini</strong>.</li>
-        <li>Monitors hallucination probability, response latency, and token throughput in real time.</li>
-        <li>Structured anomaly auditing and event streaming with <strong>PostgreSQL</strong>.</li>
+        <li>Engineered a multi-tenant AI observability platform featuring a multi-judge architecture to evaluate quality, safety, and hallucination risks in real time.</li>
+        <li>Architected high-throughput ingestion APIs with PostgreSQL and Prisma, implementing idempotency handling, automated risk aggregation, and secure API key authentication.</li>
+        <li>Built an interactive observability dashboard and testing playground using React, Tailwind CSS, TanStack Query, and Zustand.</li>
       </ul>
-      <p><em>Tech: LangGraph, Gemini API, Node.js, PostgreSQL, TypeScript</em></p>
+      <p><em>Tech: React, TypeScript, Node.js, Express, LangGraph, Google Gemini, PostgreSQL, Prisma</em></p>
     </td>
     <td width="50%" valign="top">
       <h3>🏛️ <a href="https://github.com/Jaipreeth-J/college-erp">College ERP System</a></h3>
       <p><strong>Enterprise Academic Management with Secure RBAC</strong></p>
       <ul>
-        <li>Designed dual-portal architecture separating Student and Faculty dashboards.</li>
-        <li>Real-time attendance tracking, grade entries, leave approvals, and assignment management.</li>
-        <li>Powered by <strong>Supabase (PostgreSQL)</strong> and <strong>@tanstack/react-query</strong>.</li>
+        <li>Designed and developed a responsive College ERP application using React, TypeScript, and Tailwind CSS.</li>
+        <li>Integrated Supabase (PostgreSQL) for authentication, database management, and real-time data synchronization.</li>
+        <li>Implemented secure role-based routing and academic management modules.</li>
       </ul>
-      <p><em>Tech: React, TypeScript, Vite, Tailwind CSS, Supabase, shadcn/ui</em></p>
+      <p><em>Tech: React, TypeScript, Vite, Tailwind CSS, Supabase, PostgreSQL</em></p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" colspan="2" valign="top">
       <h3>📅 <a href="https://github.com/Jaipreeth-J/Timetable_Dashboard_Full_Stack">Timetable Automation Dashboard</a></h3>
-      <p><strong>Unstructured DOCX Parser & Dynamic Schedule Engine</strong></p>
+      <p><strong>Full-Stack University Schedule Processing System</strong></p>
       <ul>
-        <li>Engineered extraction engine parsing raw university schedule tables from <code>.docx</code> files.</li>
-        <li>Automated faculty acronym-to-profile mapping and free slot calculation algorithms.</li>
-        <li>Role-based dashboards with visual workload distribution analytics.</li>
+        <li>Built a full-stack timetable management system using React, Node.js, and Express.js for automating university timetable processing.</li>
+        <li>Developed backend services to parse unstructured DOCX files and automate faculty timetable generation.</li>
+        <li>Implemented secure role-based authentication and integrated frontend with backend services to provide personalized dashboards.</li>
       </ul>
-      <p><em>Tech: React 19, Node.js, Express, Firebase Firestore, Mammoth.js</em></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🩺 <a href="https://github.com/Jaipreeth-J/Appointy">Appointy</a></h3>
-      <p><strong>Doctor Appointment & Healthcare Scheduling Platform</strong></p>
-      <ul>
-        <li>Dynamic doctor consultation booking platform with live practitioner calendar slots.</li>
-        <li>Role-based access portals for patients and doctors with secure Supabase Auth.</li>
-        <li>Modern accessible interface with real-time appointment status notifications.</li>
-      </ul>
-      <p><em>Tech: React, TypeScript, Tailwind CSS, shadcn/ui, Supabase</em></p>
+      <p><em>Tech: React, Node.js, Express.js, Firebase, Tailwind CSS</em></p>
     </td>
   </tr>
 </table>
 
 ---
 
-### 📜 Journey Arc & Academic Credentials
+### 📜 Education & Certifications
 
 - 🎓 **Dayananda Sagar College of Engineering (DSCE), Bangalore**  
   *Bachelor of Engineering — Information Science and Engineering* (Oct 2023 – Present)  
   **CGPA: 8.9 / 10.0**
 
-- 🏫 **BGS PU College, Mahalakshmi Layout, Bangalore**  
-  *Pre-University Course (PCMB)* (2021 – 2022)  
+- 🏫 **BGS PU College, Bangalore**  
+  *Pre-University Course (PCMB)* (June 2021 – April 2022)  
   **Score: 96.83%**
 
 - 🏆 **Certifications:**  
-  - Full Stack Web Development (Modern Node.js & React Architecture)  
-  - Figma UI/UX Designing (Design Systems & Interactive Wireframing)
+  - **Java** – Udemy  
+  - **JavaScript** – Saylor.org University  
+  - **Figma Web Design** – MindLuster  
+  - **Cloud Computing** – NPTEL
 
 ---
 
 <div align="center">
 
-### 📬 Dispatch / Connect
+### 📬 Connect with Jaipreeth J
 [![LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jaipreeth-j/)
-[![Email](https://img.shields.io/badge/Transmit%20Signal-jaipreethj%40gmail.com-ebdbb2?style=for-the-badge&logo=gmail&logoColor=141210)](mailto:jaipreethj@gmail.com)
+[![Email](https://img.shields.io/badge/Email%20Direct-jaipreethj%40gmail.com-ebdbb2?style=for-the-badge&logo=gmail&logoColor=141210)](mailto:jaipreethj@gmail.com)
 
-*“In a world of noise, craft code that resonates with clarity and poise.”* ☕✨
+*“Crafting clean, reliable, and high-performance software with purpose.”* ☕✨
 
 </div>
