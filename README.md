@@ -57,13 +57,12 @@ I am an **Information Science and Engineering** undergraduate at **Dayananda Sag
   <tr>
     <td width="50%" valign="top">
       <h3>🛡️ <a href="https://github.com/Jaipreeth-J/AI-Sentinel">AI Sentinel</a></h3>
-      <p><strong>AI Quality & Observability Platform</strong></p>
+      <p><strong>Web Application & Observability Dashboard</strong></p>
       <ul>
-        <li>Engineered a multi-tenant AI observability platform featuring a multi-judge architecture to evaluate quality, safety, and hallucination risks in real time.</li>
-        <li>Architected high-throughput ingestion APIs with PostgreSQL and Prisma, implementing idempotency handling, automated risk aggregation, and secure API key authentication.</li>
-        <li>Built an interactive observability dashboard and testing playground using React, Tailwind CSS, TanStack Query, and Zustand.</li>
+        <li>Built an interactive web dashboard and testing playground using <strong>React</strong>, <strong>Tailwind CSS</strong>, <strong>TanStack Query</strong>, and <strong>Zustand</strong>.</li>
+        <li>Architected high-throughput ingestion RESTful APIs with <strong>PostgreSQL</strong>, <strong>Express</strong>, and <strong>Prisma</strong>, implementing idempotency handling and secure API key authentication.</li>
       </ul>
-      <p><em>Tech: React, TypeScript, Node.js, Express, LangGraph, Google Gemini, PostgreSQL, Prisma</em></p>
+      <p><em>Tech: React, TypeScript, Node.js, Express, PostgreSQL, Prisma, Tailwind CSS, Zustand</em></p>
     </td>
     <td width="50%" valign="top">
       <h3>🏛️ <a href="https://github.com/Jaipreeth-J/college-erp">College ERP System</a></h3>
