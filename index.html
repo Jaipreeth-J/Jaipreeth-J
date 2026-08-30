@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaipreeth J // Full-Stack Software Engineer</title>
+  <meta name="description" content="Personal portfolio of Jaipreeth J, Information Science & Engineering undergraduate at DSCE Bangalore specializing in Full-Stack Web Development, Scalable Backends, React, Node.js, and PostgreSQL.">
+  <meta name="keywords" content="Jaipreeth J, Software Engineer, Full Stack Developer, React, Node.js, Express, PostgreSQL, Prisma, Supabase, DSCE Bangalore">
+  <meta name="author" content="Jaipreeth J">
+  <link rel="icon" href="assets/avatar.jpg" type="image/jpeg">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Lighting Effects -->
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+
+  <!-- Ambient Particle Simulation -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ==========================================================================
+       NAVIGATION & HUD CONTROLS
+       ========================================================================== -->
+  <header class="site-nav">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="brand-symbol">JJ</div>
+        <div class="brand-name">
+          <span class="title">JAIPREETH J</span>
+          <span class="subtitle">FULL-STACK ENGINEER // 開発者</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link"><span class="kanji">壱</span> Profile</a></li>
+        <li><a href="#projects" class="nav-link"><span class="kanji">弐</span> Projects</a></li>
+        <li><a href="#arsenal" class="nav-link"><span class="kanji">参</span> Skills</a></li>
+        <li><a href="#chronicles" class="nav-link"><span class="kanji">四</span> Education</a></li>
+        <li><a href="#contact" class="nav-link"><span class="kanji">五</span> Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+
+        <!-- View Resume PDF Trigger -->
+        <button class="btn-icon" onclick="openResumeModal()" title="View & Download Resume PDF">
+          <i class="fa-solid fa-file-pdf"></i>
+        </button>
+
+        <a href="https://github.com/Jaipreeth-J" target="_blank" rel="noopener noreferrer" class="btn-icon" title="GitHub Profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO & CHARACTER PROFILE SECTION
+       ========================================================================== -->
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Character Lore Dossier -->
+          <div class="character-dossier manga-panel">
+            <span class="kanji-watermark" style="top: 10px; right: 20px;">開発</span>
+            
+            <div class="dossier-header-bar">
+              <span class="dossier-id">PORTFOLIO // JAIPREETH J</span>
+              <span class="dossier-badge"><i class="fa-solid fa-code"></i> FULL-STACK DEVELOPER</span>
+            </div>
+
+            <div class="hero-greeting">
+              <span class="dot"></span>
+              <span>// ENGINEERING SCALABLE WEB SYSTEMS</span>
+            </div>
+
+            <h1 class="hero-name">
+              Jaipreeth J <span class="jp-name">ジャイプリート</span>
+            </h1>
+
+            <div class="hero-role-typing">
+              <i class="fa-solid fa-terminal" style="color: var(--accent-sand); font-size: 0.95rem;"></i>
+              <span id="typewriter-role">Full-Stack Web Developer</span>
+              <span class="cursor"></span>
+            </div>
+
+            <p class="hero-bio">
+              Information Science and Engineering undergraduate at <strong>Dayananda Sagar College of Engineering (DSCE)</strong>, Bangalore. Specializing in full-stack web development, building high-throughput RESTful backend architectures with <strong>Node.js</strong>, <strong>Express</strong>, <strong>PostgreSQL</strong>, and <strong>Prisma</strong>, combined with clean, accessible, and responsive user interfaces using <strong>React</strong>, <strong>TypeScript</strong>, and <strong>Tailwind CSS</strong>.
+            </p>
+
+            <!-- Character Stats Grid -->
+            <div class="character-stats-grid">
+              <div class="stat-item">
+                <div class="stat-label-row">
+                  <span class="label"><i class="fa-solid fa-layer-group"></i> Full-Stack Architecture</span>
+                  <span class="val">95%</span>
+                </div>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill" style="width: 95%;"></div>
+                </div>
+              </div>
+
+              <div class="stat-item">
+                <div class="stat-label-row">
+                  <span class="label"><i class="fa-solid fa-database"></i> PostgreSQL & REST APIs</span>
+                  <span class="val">92%</span>
+                </div>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill" style="width: 92%;"></div>
+                </div>
+              </div>
+
+              <div class="stat-item">
+                <div class="stat-label-row">
+                  <span class="label"><i class="fa-solid fa-cubes"></i> Low-Level Design (LLD) & OOP</span>
+                  <span class="val">88%</span>
+                </div>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill" style="width: 88%;"></div>
+                </div>
+              </div>
+
+              <div class="stat-item">
+                <div class="stat-label-row">
+                  <span class="label"><i class="fa-solid fa-code"></i> Data Structures & Algorithms</span>
+                  <span class="val">90%</span>
+                </div>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn-primary">
+                <i class="fa-solid fa-compass"></i> View Projects
+              </a>
+              <button class="btn-secondary" onclick="openResumeModal()">
+                <i class="fa-solid fa-file-pdf"></i> View Resume (PDF)
+              </button>
+              <a href="#contact" class="btn-secondary">
+                <i class="fa-solid fa-paper-plane"></i> Get in Touch
+              </a>
+            </div>
+          </div>
+
+          <!-- Character Visual Portrait Card -->
+          <div class="character-visual-card">
+            <div class="portrait-frame manga-panel">
+              <img src="assets/avatar.jpg" alt="Jaipreeth J Anime Portrait" class="portrait-img">
+              
+              <div class="portrait-overlay-hud">
+                <div class="hud-status-live">
+                  <div class="live-indicator"></div>
+                  <span>STATUS: AVAILABLE FOR ROLES & COLLABORATION</span>
+                </div>
+                <div class="hud-affiliations">
+                  <span class="hud-pill"><i class="fa-solid fa-graduation-cap"></i> DSCE '27</span>
+                  <span class="hud-pill"><i class="fa-solid fa-star"></i> CGPA 8.9</span>
+                  <span class="hud-pill"><i class="fa-solid fa-location-dot"></i> Bangalore, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED PROJECTS SECTION
+         ========================================================================== -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        
+        <div class="section-tag">
+          <span class="dot"></span>
+          <span>PRODUCTION BUILDS // プロジェクト</span>
+        </div>
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <p class="section-desc">
+          Key engineering projects showcasing full-stack web applications, multi-tenant evaluation systems, and automated schedule parsers.
+        </p>
+
+        <!-- Category Filters -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects [3]</button>
+          <button class="filter-btn" data-filter="web">Full-Stack Web</button>
+          <button class="filter-btn" data-filter="systems">Systems & Tooling</button>
+        </div>
+
+        <!-- Asymmetric Manga Grid -->
+        <div class="manga-grid">
+          
+          <!-- PROJECT 1: AI SENTINEL (7 Columns) -->
+          <div class="project-card manga-panel col-span-7" data-category="web" data-project-id="ai-sentinel">
+            <div class="card-visual-wrapper">
+              <img src="assets/ai_sentinel.jpg" alt="AI Sentinel Dashboard Interface" class="card-img">
+              <span class="manga-badge-tag"><i class="fa-solid fa-layer-group"></i> FULL-STACK DASHBOARD</span>
+            </div>
+            <div class="card-body">
+              <div class="card-category">Web Application & Analytics Dashboard</div>
+              <h3 class="card-title">
+                AI Sentinel Dashboard
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </h3>
+              <p class="card-summary">
+                Built an interactive web dashboard and testing playground using React, Tailwind CSS, TanStack Query, and Zustand. Architected high-throughput ingestion RESTful APIs with PostgreSQL, Express, and Prisma with idempotency handling.
+              </p>
+              <div class="card-tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">TypeScript</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express</span>
+                <span class="tech-badge">PostgreSQL</span>
+                <span class="tech-badge">Prisma</span>
+                <span class="tech-badge">Tailwind CSS</span>
+                <span class="tech-badge">Zustand</span>
+              </div>
+              <div class="card-actions-row">
+                <span class="card-link-btn"><i class="fa-solid fa-magnifying-glass"></i> Inspect Architecture</span>
+                <a href="https://github.com/Jaipreeth-J/AI-Sentinel" target="_blank" rel="noopener noreferrer" class="card-link-btn" onclick="event.stopPropagation()">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: COLLEGE ERP SYSTEM (5 Columns) -->
+          <div class="project-card manga-panel col-span-5" data-category="web" data-project-id="college-erp">
+            <div class="card-visual-wrapper">
+              <img src="assets/hero_banner.jpg" alt="College ERP System" class="card-img">
+              <span class="manga-badge-tag"><i class="fa-solid fa-shield-halved"></i> ENTERPRISE RBAC</span>
+            </div>
+            <div class="card-body">
+              <div class="card-category">Academic Management Platform</div>
+              <h3 class="card-title">
+                College ERP System
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </h3>
+              <p class="card-summary">
+                Designed and developed a responsive College ERP application using React, TypeScript, and Tailwind CSS. Integrated Supabase (PostgreSQL) for authentication, database management, and real-time synchronization with secure role-based routing.
+              </p>
+              <div class="card-tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">TypeScript</span>
+                <span class="tech-badge">Vite</span>
+                <span class="tech-badge">Tailwind CSS</span>
+                <span class="tech-badge">Supabase (PostgreSQL)</span>
+              </div>
+              <div class="card-actions-row">
+                <span class="card-link-btn"><i class="fa-solid fa-magnifying-glass"></i> View Details</span>
+                <a href="https://github.com/Jaipreeth-J/college-erp" target="_blank" rel="noopener noreferrer" class="card-link-btn" onclick="event.stopPropagation()">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: TIMETABLE DASHBOARD (12 Columns) -->
+          <div class="project-card manga-panel col-span-12" data-category="systems" data-project-id="timetable-dashboard">
+            <div class="card-body">
+              <div class="card-category">Systems & Schedule Automation</div>
+              <h3 class="card-title">
+                Timetable Automation Dashboard
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </h3>
+              <p class="card-summary">
+                Built a full-stack timetable management system using React, Node.js, and Express.js for automating university timetable processing. Developed backend services to parse unstructured DOCX files and automate faculty timetable generation with secure role-based authentication.
+              </p>
+              <div class="card-tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express.js</span>
+                <span class="tech-badge">Firebase</span>
+                <span class="tech-badge">Tailwind CSS</span>
+              </div>
+              <div class="card-actions-row">
+                <span class="card-link-btn"><i class="fa-solid fa-magnifying-glass"></i> View Architecture Breakdown</span>
+                <a href="https://github.com/Jaipreeth-J/Timetable_Dashboard_Full_Stack" target="_blank" rel="noopener noreferrer" class="card-link-btn" onclick="event.stopPropagation()">
+                  <i class="fa-brands fa-github"></i> GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TECHNICAL MATRIX & INTERACTIVE TERMINAL SECTION
+         ========================================================================== -->
+    <section id="arsenal" class="arsenal-section">
+      <div class="container">
+        
+        <div class="section-tag">
+          <span class="dot"></span>
+          <span>TECHNICAL MATRIX // スキル</span>
+        </div>
+        <h2 class="section-title">Technical <span>Arsenal</span></h2>
+        <p class="section-desc">
+          Core technical competencies, programming languages, backend frameworks, databases, and foundational computer science principles.
+        </p>
+
+        <div class="arsenal-grid">
+          
+          <!-- Category Skills List -->
+          <div class="skills-category-list">
+            
+            <div class="skill-box manga-panel">
+              <div class="skill-box-title">
+                <i class="fa-solid fa-code"></i> Programming Languages
+              </div>
+              <div class="skill-chips">
+                <span class="skill-chip"><i class="fa-brands fa-java"></i> Java</span>
+                <span class="skill-chip"><i class="fa-solid fa-c"></i> C (Basics)</span>
+                <span class="skill-chip"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+                <span class="skill-chip"><i class="fa-brands fa-js"></i> TypeScript</span>
+              </div>
+            </div>
+
+            <div class="skill-box manga-panel">
+              <div class="skill-box-title">
+                <i class="fa-solid fa-layer-group"></i> Frontend Development
+              </div>
+              <div class="skill-chips">
+                <span class="skill-chip"><i class="fa-brands fa-react"></i> React.js</span>
+                <span class="skill-chip"><i class="fa-brands fa-html5"></i> HTML5</span>
+                <span class="skill-chip"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                <span class="skill-chip"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
+                <span class="skill-chip"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+              </div>
+            </div>
+
+            <div class="skill-box manga-panel">
+              <div class="skill-box-title">
+                <i class="fa-solid fa-server"></i> Backend & Databases
+              </div>
+              <div class="skill-chips">
+                <span class="skill-chip"><i class="fa-brands fa-node-js"></i> Node.js</span>
+                <span class="skill-chip"><i class="fa-solid fa-network-wired"></i> Express.js</span>
+                <span class="skill-chip"><i class="fa-solid fa-plug"></i> RESTful APIs</span>
+                <span class="skill-chip"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+                <span class="skill-chip"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+                <span class="skill-chip"><i class="fa-solid fa-bolt-lightning"></i> Supabase</span>
+              </div>
+            </div>
+
+            <div class="skill-box manga-panel">
+              <div class="skill-box-title">
+                <i class="fa-solid fa-book-bookmark"></i> Computer Fundamentals & Core Competencies
+              </div>
+              <div class="skill-chips">
+                <span class="skill-chip">Data Structures & Algorithms (DSA)</span>
+                <span class="skill-chip">Low-Level Design (LLD)</span>
+                <span class="skill-chip">Object-Oriented Programming (OOP)</span>
+                <span class="skill-chip">Database Management Systems (DBMS)</span>
+                <span class="skill-chip">Operating Systems (OS)</span>
+                <span class="skill-chip">Computer Networks</span>
+              </div>
+            </div>
+
+            <div class="skill-box manga-panel">
+              <div class="skill-box-title">
+                <i class="fa-solid fa-wrench"></i> Developer Tools
+              </div>
+              <div class="skill-chips">
+                <span class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+                <span class="skill-chip"><i class="fa-brands fa-github"></i> GitHub</span>
+                <span class="skill-chip"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+                <span class="skill-chip"><i class="fa-solid fa-code"></i> VS Code</span>
+                <span class="skill-chip"><i class="fa-brands fa-figma"></i> Figma</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Terminal -->
+          <div class="terminal-window">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <div class="t-dot red"></div>
+                <div class="t-dot yellow"></div>
+                <div class="t-dot green"></div>
+              </div>
+              <div class="terminal-title">jaipreeth@lofi-sh // terminal-cli</div>
+              <div style="width: 30px;"></div>
+            </div>
+
+            <div class="terminal-body" id="terminal-body">
+              <div class="terminal-line">
+                <span style="color: var(--accent-sand);">[SYSTEM READY]</span> - Welcome to Jaipreeth's interactive terminal.
+              </div>
+              <div class="terminal-line">
+                Type <span class="highlight">'help'</span> or <span class="highlight">'resume'</span> to explore credentials.
+              </div>
+              <div class="terminal-output">
+jaipreeth_j --v2026
+Affiliation: Dayananda Sagar College of Engineering (BE ISE, CGPA 8.9)
+Focus: Full-Stack Web Development, Scalable Backends, React, Node.js, PostgreSQL.
+              </div>
+            </div>
+
+            <div class="terminal-input-row" style="padding: 12px 18px; background: #141210; border-top: 1px solid var(--border-subtle);">
+              <span class="terminal-prompt">guest@jaipreeth:~$</span>
+              <input type="text" id="terminal-input" class="terminal-input" placeholder="type 'help', 'projects', 'skills', 'resume'..." autocomplete="off" spellcheck="false">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EDUCATION & CERTIFICATIONS TIMELINE
+         ========================================================================== -->
+    <section id="chronicles" class="chronicles-section">
+      <div class="container">
+        
+        <div class="section-tag">
+          <span class="dot"></span>
+          <span>ACADEMIC TIMELINE // 経歴</span>
+        </div>
+        <h2 class="section-title">Education & <span>Certifications</span></h2>
+        <p class="section-desc">
+          Academic credentials and verified technical certifications.
+        </p>
+
+        <div class="timeline-flow">
+          
+          <!-- DSCE -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card manga-panel">
+              <div class="timeline-date"><i class="fa-regular fa-calendar"></i> OCT 2023 — PRESENT</div>
+              <h3 class="timeline-role">Bachelor of Engineering in Information Science and Engineering</h3>
+              <div class="timeline-org">Dayananda Sagar College of Engineering (DSCE) • Bangalore, Karnataka, India</div>
+              <p class="timeline-details">
+                Current CGPA: <strong>8.9 / 10.0</strong>. Coursework includes Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.
+              </p>
+            </div>
+          </div>
+
+          <!-- BGS PUC -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card manga-panel">
+              <div class="timeline-date"><i class="fa-regular fa-calendar"></i> JUNE 2021 — APRIL 2022</div>
+              <h3 class="timeline-role">Pre-University Course (PCMB)</h3>
+              <div class="timeline-org">BGS PU College • Bangalore, Karnataka, India</div>
+              <p class="timeline-details">
+                Graduated with distinction scoring <strong>96.83%</strong> in Physics, Chemistry, Mathematics, and Biology.
+              </p>
+            </div>
+          </div>
+
+          <!-- Certifications -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card manga-panel">
+              <div class="timeline-date"><i class="fa-solid fa-award"></i> VERIFIED CREDENTIALS</div>
+              <h3 class="timeline-role">Professional Certifications</h3>
+              <div class="timeline-org">Industry Accreditations</div>
+              <p class="timeline-details" style="margin-top: 10px;">
+                • <strong>Java:</strong> Udemy Certification<br>
+                • <strong>JavaScript:</strong> Saylor.org University<br>
+                • <strong>Figma Web Design:</strong> MindLuster Certification<br>
+                • <strong>Cloud Computing:</strong> NPTEL Certification
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION
+         ========================================================================== -->
+    <section id="contact" class="transmissions-section">
+      <div class="container">
+        
+        <div class="section-tag">
+          <span class="dot"></span>
+          <span>GET IN TOUCH // 交信</span>
+        </div>
+        <h2 class="section-title">Let's <span>Connect</span></h2>
+        <p class="section-desc">
+          Feel free to reach out for software engineering opportunities, full-stack collaborations, or technical inquiries.
+        </p>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Coordinates -->
+          <div class="contact-info-card manga-panel">
+            <div>
+              <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-bright); margin-bottom: 8px;">Contact Information</h3>
+              <p style="color: var(--text-muted); font-size: 0.95rem;">Looking forward to connecting with fellow engineers, recruiters, and tech builders.</p>
+
+              <div class="info-item-list">
+                <div class="info-item">
+                  <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="info-text-group">
+                    <span class="label">Email</span>
+                    <div class="val">jaipreethj@gmail.com</div>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                  <div class="info-text-group">
+                    <span class="label">LinkedIn</span>
+                    <div class="val"><a href="https://www.linkedin.com/in/jaipreeth-j/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jaipreeth-j</a></div>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon"><i class="fa-brands fa-github"></i></div>
+                  <div class="info-text-group">
+                    <span class="label">GitHub</span>
+                    <div class="val"><a href="https://github.com/Jaipreeth-J" target="_blank" rel="noopener noreferrer">github.com/Jaipreeth-J</a></div>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                  <div class="info-text-group">
+                    <span class="label">Location</span>
+                    <div class="val">Bangalore, Karnataka, India</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button class="btn-secondary" style="width: 100%;" onclick="copyToClipboard('jaipreethj@gmail.com', 'Copied email to clipboard!')">
+                <i class="fa-regular fa-copy"></i> Copy Email Address
+              </button>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card manga-panel">
+            <h3 style="font-family: var(--font-heading); font-size: 1.3rem; margin-bottom: 20px; color: var(--text-bright);">Send a Message</h3>
+            
+            <form id="contact-form">
+              <div class="form-group">
+                <label class="form-label" for="c-name"><i class="fa-regular fa-user"></i> YOUR NAME</label>
+                <input type="text" id="c-name" class="form-input" placeholder="Your Name" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="c-email"><i class="fa-regular fa-envelope"></i> YOUR EMAIL</label>
+                <input type="email" id="c-email" class="form-input" placeholder="your.email@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="c-message"><i class="fa-regular fa-message"></i> MESSAGE</label>
+                <textarea id="c-message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary" style="width: 100%;">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">JAIPREETH J // 開発者</div>
+      
+      <div class="footer-socials">
+        <a href="https://github.com/Jaipreeth-J" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jaipreeth-j/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:jaipreethj@gmail.com" class="social-icon-btn" title="Email Direct">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+      </div>
+
+      <div class="footer-copy">
+        Crafted with Dark Anime & Lo-Fi Aesthetics • © 2026 Jaipreeth J.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       PROJECT DEEP-DIVE MODAL
+       ========================================================================== -->
+  <div id="project-modal" class="modal-overlay">
+    <div class="modal-window">
+      <button class="modal-close-btn" onclick="closeProjectModal()"><i class="fa-solid fa-xmark"></i></button>
+      
+      <div style="height: 240px; overflow: hidden; background: #141210;">
+        <img id="modal-img" src="" alt="Project Visual" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+
+      <div class="modal-content">
+        <div id="modal-category" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-sand); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px;"></div>
+        <h2 id="modal-title" style="font-size: 1.6rem; font-family: var(--font-heading); color: var(--text-bright); margin-bottom: 14px;"></h2>
+        <p id="modal-summary" style="color: var(--text-muted); font-size: 0.98rem; line-height: 1.7; margin-bottom: 24px;"></p>
+
+        <h4 style="font-family: var(--font-heading); font-size: 1.02rem; color: var(--accent-cream); margin-bottom: 12px;">Architecture & Key Features:</h4>
+        <ul id="modal-architecture" style="list-style: square; padding-left: 20px; color: var(--text-main); font-size: 0.92rem; margin-bottom: 24px;"></ul>
+
+        <h4 style="font-family: var(--font-heading); font-size: 1.02rem; color: var(--accent-cream); margin-bottom: 12px;">Tech Stack:</h4>
+        <div id="modal-stack" class="card-tech-stack" style="margin-bottom: 28px;"></div>
+
+        <div style="display: flex; gap: 14px;">
+          <a id="modal-github" href="#" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            <i class="fa-brands fa-github"></i> View GitHub Source
+          </a>
+          <a id="modal-live" href="#" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="display: none;">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       RESUME PDF MODAL & EMBEDDED VIEWER
+       ========================================================================== -->
+  <div id="resume-modal" class="modal-overlay">
+    <div class="modal-window" style="max-width: 920px; max-height: 94vh;">
+      <button class="modal-close-btn" onclick="closeResumeModal()"><i class="fa-solid fa-xmark"></i></button>
+
+      <div class="modal-content" style="padding: 28px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-subtle); padding-bottom: 16px; margin-bottom: 20px; flex-wrap: wrap; gap: 12px;">
+          <div>
+            <h2 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--text-bright);">Jaipreeth J // Resume</h2>
+            <p style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-sand);">Information Science & Engineering • DSCE Bangalore</p>
+          </div>
+          <div style="display: flex; gap: 10px;">
+            <a href="assets/Jaipreeth_J_BE_ISE.pdf" target="_blank" class="btn-secondary" style="padding: 8px 16px; font-size: 0.85rem;">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Tab
+            </a>
+            <a href="assets/Jaipreeth_J_BE_ISE.pdf" download="Jaipreeth_J_BE_ISE.pdf" class="btn-primary" style="padding: 8px 18px; font-size: 0.85rem;">
+              <i class="fa-solid fa-download"></i> Download PDF
+            </a>
+          </div>
+        </div>
+
+        <!-- Embedded PDF Frame -->
+        <div style="width: 100%; height: 580px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-manga); background: #141210;">
+          <iframe src="assets/Jaipreeth_J_BE_ISE.pdf#view=FitH" width="100%" height="100%" style="border: none;"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast-msg">
+    <i class="fa-solid fa-circle-check" style="color: var(--accent-sand);"></i>
+    <span class="toast-text">Notification</span>
+  </div>
+
+  <!-- Main Engine Script -->
+  <script src="app.js"></script>
+</body>
+</html>
