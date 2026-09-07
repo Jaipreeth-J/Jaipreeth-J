@@ -21,7 +21,7 @@
 │  ────────────────────────────────────────────────────────────────────  │
 │  AFFILIATION : Dayananda Sagar College of Engineering (BE ISE)         │
 │  STATUS      : Oct 2023 - Present (CGPA: 8.9 / 10.0)                   │
-│  SPECIALTY   : Full-Stack Web Development & High-Concurrency Systems   │
+│  SPECIALTY   : Full-Stack Web Development & Software Development       │
 │  CORE STACK  : React, Node.js, Express, PostgreSQL, Prisma, Supabase   │
 └────────────────────────────────────────────────────────────────────────┘
 ```
