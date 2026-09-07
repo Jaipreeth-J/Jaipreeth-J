@@ -33,7 +33,7 @@
 ### 🌌 Profile & Focus
 I am an **Information Science and Engineering** undergraduate at **Dayananda Sagar College of Engineering (DSCE)**, Bangalore. I specialize in full-stack web development, engineering scalable backend architectures, high-throughput RESTful APIs, and responsive, accessible user interfaces.
 
-- 🔭 **Building:** Scalable applications using **React**, **Node.js**, **Express**, **PostgreSQL**, and **Prisma**.
+- 🔭 **Building:** Scalable applications using **React**, **Node.js**, **Express**, and **PostgreSQL**.
 - ⚡ **Core Competencies:** Advanced Data Structures & Algorithms (DSA), Low-Level Design (LLD), and Object-Oriented Programming (OOP).
 - 🎓 **Education:** DSCE Bangalore (BE ISE, CGPA: 8.9) | BGS PU College (PCMB, 96.83%).
 
