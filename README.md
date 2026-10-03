@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⛩️ JAIPREETH J // 開発者
-### ☕ *Full-Stack Software Engineer*
+### ☕ *Full-Stack Software Developer*
 **Dayananda Sagar College of Engineering (DSCE), Bangalore**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaipreeth-j/)
@@ -31,9 +31,9 @@
 ---
 
 ### 🌌 Profile & Focus
-I am an **Information Science and Engineering** undergraduate at **Dayananda Sagar College of Engineering (DSCE)**, Bangalore. I specialize in full-stack web development, engineering scalable backend architectures, high-throughput RESTful APIs, and responsive, accessible user interfaces.
+I am an **Information Science** undergraduate at **Dayananda Sagar College of Engineering (DSCE)**, Bangalore with an **8.9 CGPA** and strong foundations in Data Structures & Algorithms, OOP, DBMS, Operating Systems, and Computer Networks. Skilled in **Java** and full-stack development with **React**, **TypeScript**, **Node.js**, **Express**, and **PostgreSQL**, with hands-on experience building real-world software applications.
 
-- 🔭 **Building:** Scalable applications using **React**, **Node.js**, **Express**, and **PostgreSQL**.
+- 🔭 **Building:** High-scale web applications, debt-simplification engines, and AI observability platforms using **React**, **TypeScript**, **Node.js**, **Express**, and **PostgreSQL**.
 - ⚡ **Core Competencies:** Advanced Data Structures & Algorithms (DSA), Low-Level Design (LLD), and Object-Oriented Programming (OOP).
 - 🎓 **Education:** DSCE Bangalore (BE ISE, CGPA: 8.9) | BGS PU College (PCMB, 96.83%).
 
@@ -43,11 +43,13 @@ I am an **Information Science and Engineering** undergraduate at **Dayananda Sag
 
 | Category | Technologies |
 | :--- | :--- |
-| **Programming Languages** | `Java` `C (Basics)` `JavaScript (ES6+)` `TypeScript` |
-| **Frontend Development** | `React.js` `HTML5` `CSS3` `Tailwind CSS` `Bootstrap` |
-| **Backend & Databases** | `Node.js` `Express.js` `RESTful APIs` `PostgreSQL` `MongoDB` `Supabase` |
-| **Tools & Environments** | `Git` `GitHub` `Postman` `VS Code` `Figma` |
-| **Computer Fundamentals** | `DSA` `Low-Level Design (LLD)` `OOP` `DBMS` `Operating Systems` `Computer Networks` |
+| **Programming Languages** | `Java` `JavaScript (ES6+)` `TypeScript` |
+| **Frontend** | `React.js` `HTML5` `CSS3` `Tailwind CSS` `Bootstrap` |
+| **Backend** | `Node.js` `Express.js` `REST API's` |
+| **Database** | `PostgreSQL` `MongoDB` |
+| **Computer Fundamentals** | `Database Management Systems (DBMS)` `Operating Systems (OS)` `Computer Networks` |
+| **Tools** | `Git` `GitHub` `Postman` `VS Code` |
+| **Core Competencies** | `DSA` `Low-Level Design (LLD)` `Object-Oriented Programming (OOP)` |
 
 ---
 
@@ -56,42 +58,46 @@ I am an **Information Science and Engineering** undergraduate at **Dayananda Sag
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/Jaipreeth-J/AI-Sentinel">AI Sentinel</a></h3>
-      <p><strong>Web Application & Observability Dashboard</strong></p>
+      <h3>💸 <a href="https://github.com/Jaipreeth-J/Expense-Splitter">Expense Splitter</a></h3>
+      <p><strong>Full-Stack Expense Platform & Financial Algorithms</strong></p>
       <ul>
-        <li>Built an interactive web dashboard and testing playground using <strong>React</strong>, <strong>Tailwind CSS</strong>, <strong>TanStack Query</strong>, and <strong>Zustand</strong>.</li>
-        <li>Architected high-throughput ingestion RESTful APIs with <strong>PostgreSQL</strong>, <strong>Express</strong>, and <strong>Prisma</strong>, implementing idempotency handling and secure API key authentication.</li>
+        <li>Designed and developed a full-stack expense management platform enabling groups to track shared expenses and calculate member balances with equal, exact, and percentage-based splitting.</li>
+        <li>Implemented JWT-based authentication with bcrypt password hashing and protected API routes, along with group/member management and settlement tracking using <strong>Node.js</strong>, <strong>Express</strong>, and <strong>PostgreSQL</strong>.</li>
+        <li>Developed a debt-simplification algorithm using a <strong>greedy minimum-cash-flow approach</strong> to reduce complex group debts into a minimal set of settlement transactions.</li>
+        <li>Built and deployed the responsive React frontend and RESTful backend using <strong>Vercel</strong> and <strong>Render</strong>, with PostgreSQL hosted on <strong>Neon</strong>.</li>
       </ul>
-      <p><em>Tech: React, TypeScript, Node.js, Express, PostgreSQL, Prisma, Tailwind CSS, Zustand</em></p>
+      <p><em>Tech: React, Vite, Node.js, Express, PostgreSQL, JWT, Tailwind CSS, Neon</em></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏛️ <a href="https://github.com/Jaipreeth-J/college-erp">College ERP System</a></h3>
-      <p><strong>Enterprise Academic Management with Secure RBAC</strong></p>
+      <h3>🛡️ <a href="https://github.com/Jaipreeth-J/AI-Sentinel">AI Sentinel</a></h3>
+      <p><strong>AI Quality & Observability Platform</strong></p>
       <ul>
-        <li>Designed and developed a responsive College ERP application using React, TypeScript, and Tailwind CSS.</li>
-        <li>Integrated Supabase (PostgreSQL) for authentication, database management, and real-time data synchronization.</li>
-        <li>Implemented secure role-based routing and academic management modules.</li>
+        <li>Contributed to an AI observability platform to monitor LLM interactions and evaluate responses for quality, safety, and hallucination risks.</li>
+        <li>Provides a centralized dashboard to view AI evaluation results, risk levels, and conversation insights through REST APIs.</li>
+        <li>Contributed to developing responsive dashboard views using <strong>React.js</strong> and <strong>TypeScript</strong>, integrating REST APIs to fetch and display application and evaluation data.</li>
+        <li>Implemented user authentication and API-key-based access control using Express.js middleware, integrating secured endpoints with PostgreSQL through <strong>Prisma ORM</strong>.</li>
       </ul>
-      <p><em>Tech: React, TypeScript, Vite, Tailwind CSS, Supabase, PostgreSQL</em></p>
+      <p><em>Tech: React.js, TypeScript, Node.js, Express.js, PostgreSQL, Prisma, REST APIs</em></p>
     </td>
   </tr>
   <tr>
     <td width="100%" colspan="2" valign="top">
-      <h3>📅 <a href="https://github.com/Jaipreeth-J/Timetable_Dashboard_Full_Stack">Timetable Automation Dashboard</a></h3>
-      <p><strong>Full-Stack University Schedule Processing System</strong></p>
+      <h3>🏥 <a href="https://github.com/Jaipreeth-J/MediFusion">MediFusion</a></h3>
+      <p><strong>Personal Health Management Platform</strong></p>
       <ul>
-        <li>Built a full-stack timetable management system using React, Node.js, and Express.js for automating university timetable processing.</li>
-        <li>Developed backend services to parse unstructured DOCX files and automate faculty timetable generation.</li>
-        <li>Implemented secure role-based authentication and integrated frontend with backend services to provide personalized dashboards.</li>
+        <li>Contributed to a health management platform for tracking vitals, symptoms, medications, mood, and health records in a centralized dashboard.</li>
+        <li>Integrated AI-powered health insights and wearable data synchronization to help users monitor and manage their health information.</li>
+        <li>Developed responsive dashboard components using <strong>React.js</strong> and <strong>TypeScript</strong>, integrating REST APIs to fetch and display user health data.</li>
+        <li>Worked with <strong>PostgreSQL</strong> and <strong>Supabase</strong> to manage user health records, implementing authentication, authorization, and Row-Level Security (RLS) for user-specific data access.</li>
       </ul>
-      <p><em>Tech: React, Node.js, Express.js, Firebase, Tailwind CSS</em></p>
+      <p><em>Tech: React.js, TypeScript, PostgreSQL, Supabase, Row-Level Security (RLS), REST APIs</em></p>
     </td>
   </tr>
 </table>
 
 ---
 
-### 📜 Education & Certifications
+### 📜 Education, Certifications & Languages
 
 - 🎓 **Dayananda Sagar College of Engineering (DSCE), Bangalore**  
   *Bachelor of Engineering — Information Science and Engineering* (Oct 2023 – Present)  
@@ -103,9 +109,12 @@ I am an **Information Science and Engineering** undergraduate at **Dayananda Sag
 
 - 🏆 **Certifications:**  
   - **Java** – Udemy  
-  - **JavaScript** – Saylor.org University  
-  - **Figma Web Design** – MindLuster  
   - **Cloud Computing** – NPTEL
+
+- 🗣️ **Languages:**  
+  - **English** (Professional)  
+  - **Hindi** (Conversational)  
+  - **Kannada** (Native)
 
 ---
 

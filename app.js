@@ -75,9 +75,10 @@ function initTypewriter() {
   if (!el) return;
 
   const roles = [
-    'Full-Stack Web Developer ⚡',
-    'PostgreSQL & Scalable Backend Architect 🛡️',
-    'React & Modern Frontend Engineer 🎨',
+    'Full-Stack Software Developer ⚡',
+    'Java & OOP Architecture Specialist ☕',
+    'PostgreSQL, Express & REST Backend Architect ⚙️',
+    'React & TypeScript Frontend Developer 🎨',
     'Information Science Student @ DSCE Bangalore 🎓'
   ];
 
@@ -115,50 +116,53 @@ function initTypewriter() {
 
 // --- 3. PROJECT DATABASE & MODAL CONTROLLER ---
 const projectData = {
+  'expense-splitter': {
+    title: 'Expense Splitter',
+    category: 'Full-Stack Web & Financial Algorithms',
+    badge: 'React + Vite + Node + Express + PostgreSQL + JWT',
+    image: 'assets/anime_lofi_workspace_1788107051353.jpg',
+    github: 'https://github.com/Jaipreeth-J/Expense-Splitter',
+    live: 'https://github.com/Jaipreeth-J/Expense-Splitter',
+    summary: 'Designed and developed a full-stack expense management platform enabling groups to track shared expenses and calculate member balances with equal, exact, and percentage-based splitting.',
+    architecture: [
+      'Full-Stack Expense Platform: Designed and developed a full-stack expense management platform enabling groups to track shared expenses and calculate member balances with equal, exact, and percentage-based splitting.',
+      'Secure Auth & Route Protection: Implemented JWT-based authentication with bcrypt password hashing and protected API routes, along with group/member management and settlement tracking using Node.js, Express, and PostgreSQL.',
+      'Greedy Minimum-Cash-Flow Algorithm: Developed a debt-simplification algorithm using a greedy minimum-cash-flow approach to reduce complex group debts into a minimal set of settlement transactions.',
+      'Cloud Deployment & Neon DB: Built and deployed the responsive React frontend and RESTful backend using Vercel and Render, with PostgreSQL hosted on Neon and environment-based production configuration.'
+    ],
+    techStack: ['React', 'Vite', 'Node.js', 'Express', 'PostgreSQL', 'JWT', 'Tailwind CSS', 'Neon']
+  },
   'ai-sentinel': {
-    title: 'AI Sentinel (Web Application & Dashboard)',
-    category: 'Full-Stack Web Application',
-    badge: 'React + Node + Prisma',
+    title: 'AI Sentinel (AI Quality & Observability Platform)',
+    category: 'AI Quality & Observability Platform',
+    badge: 'React + TypeScript + Express + PostgreSQL + Prisma',
     image: 'assets/ai_sentinel.jpg',
     github: 'https://github.com/Jaipreeth-J/AI-Sentinel',
     live: 'https://github.com/Jaipreeth-J/AI-Sentinel',
-    summary: 'A full-stack web application and interactive dashboard for evaluating real-time metrics with high-throughput REST APIs.',
+    summary: 'Contributed to an AI observability platform to monitor LLM interactions and evaluate responses for quality, safety, and hallucination risks.',
     architecture: [
-      'Interactive Web Dashboard: Built a testing playground and real-time dashboard using React, Tailwind CSS, TanStack Query, and Zustand.',
-      'High-Throughput Ingestion APIs: Architected RESTful backend services with Express.js, PostgreSQL, and Prisma with idempotency handling and secure API key auth.',
-      'State & Data Sync: Implemented fast client-side caching, reactive UI updates, and type-safe database queries.'
+      'LLM Quality Monitoring: Contributed to an AI observability platform to monitor LLM interactions and evaluate responses for quality, safety, and hallucination risks.',
+      'Centralized Observability Views: Provides a centralized dashboard to view AI evaluation results, risk levels, and conversation insights through REST APIs.',
+      'Responsive React Views: Contributed to developing responsive dashboard views using React.js and TypeScript, integrating REST APIs to fetch and display application and evaluation data.',
+      'Secure Auth & Prisma ORM: Implemented user authentication and API-key-based access control using Express.js middleware, integrating secured endpoints with PostgreSQL through Prisma ORM.'
     ],
-    techStack: ['React', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL', 'Prisma', 'Tailwind CSS', 'TanStack Query', 'Zustand']
+    techStack: ['React.js', 'TypeScript', 'Node.js', 'Express.js', 'PostgreSQL', 'Prisma', 'REST APIs']
   },
-  'timetable-dashboard': {
-    title: 'Timetable Automation Dashboard',
-    category: 'Full-Stack Systems',
-    badge: 'DOCX Parser & Scheduler',
+  'medifusion': {
+    title: 'MediFusion (Personal Health Management Platform)',
+    category: 'Personal Health Management Platform',
+    badge: 'React + TypeScript + PostgreSQL + Supabase RLS',
     image: 'assets/hero_banner.jpg',
-    github: 'https://github.com/Jaipreeth-J/Timetable_Dashboard_Full_Stack',
-    live: 'https://github.com/Jaipreeth-J/Timetable_Dashboard_Full_Stack',
-    summary: 'A full-stack timetable management system using React, Node.js, and Express.js for automating university timetable processing.',
+    github: 'https://github.com/Jaipreeth-J/MediFusion',
+    live: 'https://github.com/Jaipreeth-J/MediFusion',
+    summary: 'Contributed to a health management platform for tracking vitals, symptoms, medications, mood, and health records in a centralized dashboard.',
     architecture: [
-      'DOCX Extraction Pipeline: Developed backend services in Node.js to parse unstructured .docx files and automate faculty timetable generation.',
-      'Role-Based Portals: Implemented secure role-based authentication and integrated frontend with backend services to provide personalized dashboards.',
-      'High-Performance UI: Built dynamic interface with React and Tailwind CSS for interactive timetable viewing.'
+      'Comprehensive Health Dashboard: Contributed to a health management platform for tracking vitals, symptoms, medications, mood, and health records in a centralized dashboard.',
+      'AI Insights & Wearable Sync: Integrated AI-powered health insights and wearable data synchronization to help users monitor and manage their health information.',
+      'Responsive Components: Developed responsive dashboard components using React.js and TypeScript, integrating REST APIs to fetch and display user health data.',
+      'Supabase & Row-Level Security (RLS): Worked with PostgreSQL and Supabase to manage user health records, implementing authentication, authorization, and Row-Level Security (RLS) for user-specific data access.'
     ],
-    techStack: ['React', 'Node.js', 'Express.js', 'Firebase', 'Tailwind CSS']
-  },
-  'college-erp': {
-    title: 'College ERP System',
-    category: 'Full-Stack Web',
-    badge: 'Enterprise RBAC',
-    image: 'assets/hero_banner.jpg',
-    github: 'https://github.com/Jaipreeth-J/college-erp',
-    live: 'https://Jaipreeth-J.github.io/college-erp',
-    summary: 'A full-scale responsive College ERP application using React, TypeScript, and Tailwind CSS with secure role-based management.',
-    architecture: [
-      'Responsive Architecture: Designed and developed using React, TypeScript, Vite, and Tailwind CSS for fast and clean UI.',
-      'Backend & State: Integrated Supabase (PostgreSQL) for authentication, database management, and real-time data synchronization.',
-      'Role-Based Routing: Implemented secure student and teacher routing and academic management modules following clean, reusable coding practices.'
-    ],
-    techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Supabase', 'PostgreSQL']
+    techStack: ['React.js', 'TypeScript', 'PostgreSQL', 'Supabase', 'Row-Level Security (RLS)', 'REST APIs']
   }
 };
 
@@ -251,41 +255,57 @@ function initTerminal() {
 
   const commands = {
     help: `Available commands:
-  • about       - View profile & credentials
-  • projects    - List key production builds
-  • skills      - Display technical matrix & competencies
-  • education   - Display academic records (DSCE, PUC)
-  • contact     - Show direct dispatch channels
-  • clear       - Clean terminal output
-  • resume      - Open official PDF resume`,
+  • about          - View profile & credentials
+  • projects       - List key production builds
+  • skills         - Display technical matrix & competencies
+  • education      - Display academic records (DSCE, PUC)
+  • certifications - View professional accreditations
+  • languages      - View spoken language proficiencies
+  • contact        - Show direct dispatch channels
+  • clear          - Clean terminal output
+  • resume         - Open official PDF resume`,
     about: `Jaipreeth J // Full-Stack Software Developer
 Affiliation : Dayananda Sagar College of Engineering, Bangalore (BE ISE)
 Status      : Oct 2023 - Present (CGPA: 8.9 / 10.0)
-Core Focus  : Scalable Full-Stack Web Development, React, Node.js, Express, PostgreSQL.`,
-    projects: `Production Builds:
-  1. AI Sentinel       - Multi-judge AI Quality & Observability Platform (React, Node, PostgreSQL, Prisma)
-  2. College ERP       - Full-scale academic portal with RBAC (React, TypeScript, Supabase)
-  3. Timetable System  - Automated DOCX schedule extraction engine (React, Node.js, Express)`,
+Core Focus  : Skilled in Java and full-stack development with React, TypeScript, Node.js, Express, and PostgreSQL.`,
+    projects: `Featured Projects:
+  1. Expense Splitter
+     • Full-stack expense platform, greedy minimum-cash-flow algorithm, JWT, PostgreSQL (Neon)
+  2. AI Sentinel (AI Quality & Observability Platform)
+     • LLM monitoring, centralized evaluation dashboard, Express middleware, Prisma ORM
+  3. MediFusion (Personal Health Management Platform)
+     • Vitals & health records, AI insights, wearable sync, PostgreSQL, Supabase RLS`,
     skills: `Technical Matrix:
-  [Languages]   : Java, C (Basics), JavaScript (ES6+), TypeScript
-  [Frontend]    : React.js, HTML5, CSS3, Tailwind CSS, Bootstrap
-  [Backend]     : Node.js, Express.js, RESTful APIs
-  [Database]    : PostgreSQL, MongoDB
-  [Core CS]     : DSA, Low-Level Design (LLD), OOP, DBMS, OS, Computer Networks
-  [Tools]       : Git, GitHub, Postman, VS Code, Figma`,
+  [Languages]         : Java, JavaScript (ES6+), TypeScript
+  [Frontend]          : React.js, HTML5, CSS3, Tailwind CSS, Bootstrap
+  [Backend]           : Node.js, Express.js, REST API's
+  [Database]          : PostgreSQL, MongoDB
+  [Computer Fund.]    : Database Management Systems, Operating Systems, Computer Networks
+  [Tools]             : Git, GitHub, Postman, VS Code
+  [Core Competencies] : DSA, Low-Level Design (LLD), Object-Oriented Programming (OOP)`,
     education: `Academic Credentials:
-  - Dayananda Sagar College of Engineering (DSCE)
-    Bachelor of Engineering (ISE) | CGPA: 8.9 (Oct 2023 - Present)
+  - Dayananda Sagar College of Engineering (DSCE), Bangalore
+    Bachelor of Engineering (Information Science & Engineering)
+    CGPA: 8.9 / 10.0 (Oct 2023 – Present)
   - BGS PU College, Bangalore
-    Pre-University (PCMB) | Score: 96.83% (June 2021 - April 2022)`,
+    Pre-University Course (PCMB)
+    Score: 96.83% (June 2021 – April 2022)`,
+    certifications: `Verified Certifications:
+  • Java             - Udemy
+  • Cloud Computing  - NPTEL`,
+    languages: `Spoken Languages:
+  • English (Professional)
+  • Hindi (Conversational)
+  • Kannada (Native)`,
     resume: () => {
       openResumeModal();
-      return '>> Opening Jaipreeth_J_BE_ISE.pdf resume viewer...';
+      return '>> Opening Jaipreeth_J(Final).pdf resume viewer...';
     },
     contact: `Dispatch Coordinates:
   • Email    : jaipreethj@gmail.com
   • LinkedIn : https://www.linkedin.com/in/jaipreeth-j
-  • GitHub   : https://github.com/Jaipreeth-J`,
+  • GitHub   : https://github.com/Jaipreeth-J
+  • Location : Bangalore, Karnataka, India`,
     clear: () => {
       body.innerHTML = '';
       return '';
